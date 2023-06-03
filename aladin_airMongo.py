@@ -25,7 +25,7 @@ dag = DAG(
 
 def _get_url(ti):
     pathlib.Path("/home/airflow/data").mkdir(parents=True, exist_ok=True)
-    TTBKey = 'ttbmoon9512051357001'
+    TTBKey = '발급받은 KEY'
     items = []
 
     for start_value in range(1, 11):
